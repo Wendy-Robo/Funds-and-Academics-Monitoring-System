@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Smart FAME.exe" version="1.0.0.0" publicKeyToken="50855fae2a77ed87" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="HIIcon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Smart FAME" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Smart FAME.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.Common" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.DataVisualization" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.ProcessingObjectModel" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.ReportViewer.WinForms" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.SqlServer.Types" version="11.0.0.0" publicKeyToken="89845DCD8080CC91" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5062304">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ME/k2DGnnEXXRv8PbQPIB/oznXx46EIYOYjb9nQ2US8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="580768">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iU2DBXuEJ4l5e2Up1a2QeNBvmdWHbhB91cwMpi/p8Nc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Smart FAME.exe" size="8134656">
+      <assemblyIdentity name="Smart FAME" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>WSP/ypO0w9QikhtznLn6pugzbvEjlxRCoNqUKv3AY0s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="HIIcon.ico" size="213374">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gEHAFeQoLzZG6+4yAbuJQuApStajdzqMB262t6qqhOg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HIMAModel.Context.tt" size="22933">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vQaPIadl71tShFhYO4G2IgJH5B8/gYjEz1Uctn23cug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HIMAModel.tt" size="24886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1WB7l+4E2QU2lYJ2ka1WxLLGoBTUKgP3+UEZl8FGRS8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Smart FAME.exe.config" size="1608">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H4x2WkjI77294U7UHrPklOJ2/30wlUbgkQbft+eQfbM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=HDSTART9-PC\User" issuerKeyHash="a7a7f9635090792e1444c0cc00fd6de35a3abc0a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>HRgcUONZG7fyWJPq+xIw/hiKIfRDXRWT8N+9qK8Pt5M=</DigestValue></Reference></SignedInfo><SignatureValue>anCdL496MePjNLCAp9WFWw47qDFv8TKs52XI8kDeTAmzZpqVw+9ZR7KmHQRZsfFCs6QKlPobClcoL5q0ypd51OfnNOJVOPghtH5NiLCqU7OHcauTEk09n8L84D7wGwq8N+iTHRPCrUeieoYMmYp7Hb2C+Lk2LN61BY+/I8/8moA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>28qE4nQpe3h1ILLZkc7c3+G7GEvWCmzeQmBlhavAh8p1PF/JU+xfyFYdrDbrN70Vcft83VYCcB6oQIsYDB/aY/ed8svSBQf4MiPcZYlDFhfM9wPLWPDWa5iAxmNiQS15rszzxKet/6ZTP1FrCysznTsDm/GquWoR166W0ABGtcE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="93b70fafa8bddff093155d43f4218a18fe3012fbea9358f2b71b59e3501c181d" Description="" Url=""><as:assemblyIdentity name="Smart FAME.exe" version="1.0.0.0" publicKeyToken="50855fae2a77ed87" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=HDSTART9-PC\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hnv0oBhXUWTC6xhuFne+c+TpbLqzm0mSBNOfvcu8ui8=</DigestValue></Reference></SignedInfo><SignatureValue>KYBjrlaLiG25vYTWwt92ZjeGIWP/xx2ZFi8bsoHLuAcQH6l+2fJXl/jy+nTL082MHWq2icouJVHnu7aLPID34S8OCL2IDRmh2zqMrqS3XHSocJXaiRyyKC2tfjSGNOJ4FaShuvh4U5g9TCfqF5CIciGETgPN8e3qsQtgnNezgwo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>28qE4nQpe3h1ILLZkc7c3+G7GEvWCmzeQmBlhavAh8p1PF/JU+xfyFYdrDbrN70Vcft83VYCcB6oQIsYDB/aY/ed8svSBQf4MiPcZYlDFhfM9wPLWPDWa5iAxmNiQS15rszzxKet/6ZTP1FrCysznTsDm/GquWoR166W0ABGtcE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQMXyJiMiXM4BEpmTGfbDe/zANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAASABEAFMAVABBAFIAVAA5AC0AUABDAFwAVQBzAGUAcjAeFw0yMDExMjMxMzI1MjBaFw0yMTExMjMxOTI1MjBaMCsxKTAnBgNVBAMeIABIAEQAUwBUAEEAUgBUADkALQBQAEMAXABVAHMAZQByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbyoTidCl7eHUgstmRztzf4bsYS9YKbN5CYGWFq8CHynU8X8lT7F/IVh2sNus3vRVx+3zdVgJwHqhAixgMH9pj953yy9IFB/gyI9xliUMWF8z3A8tY8NZrmIDGY2JBLXmuzPPEp63/plM/UWsLKzOdOwOb8aq5ahHXrpbQAEa1wQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAanBkdn8pGtXXY99lBDEUy7NIZ9VvrDF/Oxp92a3wFYKmwgTGmhj3ywp4g7Ec0rJRPr+kDRwB0I+hwyvFpwW4IYlDov40lkeHVJJg5sEJ/iEalic2TOENMdOmWtN1tYQiUgKrO2LTQYMgVlgzuXgDXIq94EpMdnr22hAbW2QWe+</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
